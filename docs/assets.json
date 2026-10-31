@@ -1,0 +1,38 @@
+[
+  {
+    "file": "photos/canyon.webp",
+    "author": "Francesco Ungaro",
+    "source": "https://www.pexels.com/photo/antelope-canyon-1051563/",
+    "license": "https://www.pexels.com/legal-pages/license/",
+    "originalSHA256": "b631094d9c71fd8c0d789ae748522c6894ba1bccc2054a716ed91790e96e82a6",
+    "originalSize": [
+      6000,
+      4000
+    ],
+    "changes": "WebP redimensionado; recortes e transformações CSS na experiência."
+  },
+  {
+    "file": "photos/cliff.webp",
+    "author": "Rachel Claire",
+    "source": "https://www.pexels.com/photo/rocky-formation-of-steep-cliff-with-dry-plants-4993082/",
+    "license": "https://www.pexels.com/legal-pages/license/",
+    "originalSHA256": "0cf8decdc90140fe4e4270785d2092ddfdea1fc10e775265eb8426a2df4e69d1",
+    "originalSize": [
+      1728,
+      2592
+    ],
+    "changes": "WebP redimensionado; recortes e transformações CSS na experiência."
+  },
+  {
+    "file": "photos/ridge.webp",
+    "author": "Mathias Reding",
+    "source": "https://www.pexels.com/photo/high-steep-rocky-mountain-ridge-under-cloudy-sky-4468962/",
+    "license": "https://www.pexels.com/legal-pages/license/",
+    "originalSHA256": "f5e9baa830d35bc7e7a6beb485f09ead17df4c9fb341748995f7985fefa7fe5c",
+    "originalSize": [
+      5184,
+      3456
+    ],
+    "changes": "WebP redimensionado; recortes e transformações CSS na experiência."
+  }
+]

@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#121210" />
+    <title>Estrato — a paisagem tem memória</title>
+    <meta
+      name="description"
+      content="Uma expedição visual por fotografias reais de rochas, curvas e horizontes. Observe três paisagens e crie seu caderno de campo local."
+    />
+    <link rel="canonical" href="https://gustapaz.github.io/estrato/" />
+    <meta property="og:title" content="Estrato — a paisagem tem memória" />
+    <meta
+      property="og:description"
+      content="Três paisagens reais. Uma experiência visual em camadas."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://gustapaz.github.io/estrato/social.jpg"
+    />
+    <meta property="og:url" content="https://gustapaz.github.io/estrato/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="/favicon.svg" />
+  </head>
+  <body>
+    <a class="skip" href="#reading">Pular para o índice e caderno</a>
+    <header>
+      <a class="brand" href="#s1"
+        >ESTRATO<span>UM ENSAIO DE OBSERVAÇÃO</span></a
+      >
+      <div>
+        <button id="motion" aria-pressed="false">Reduzir movimento</button
+        ><button id="credits">Créditos ↗</button>
+      </div>
+    </header>
+    <main>
+      <section class="chapter opening" id="s1" aria-labelledby="title">
+        <div class="scene">
+          <div class="photo-shell">
+            <img
+              src="/photos/canyon.webp"
+              width="2400"
+              height="1600"
+              alt="Curvas alaranjadas e sombras nas paredes de Antelope Canyon, fotografadas por Francesco Ungaro."
+              fetchpriority="high"
+            />
+          </div>
+          <div class="shade"></div>
+          <p class="chapter-code">01 / ENTRE AS CURVAS</p>
+          <div class="crosshair" aria-hidden="true"></div>
+          <h1 id="title"><span>A PAISAGEM</span><span>TEM MEMÓRIA.</span></h1>
+          <div class="scene-bottom">
+            <p>ANTES DE EXPLICAR,<br />PARE PARA OLHAR.</p>
+            <a href="#s2">DESÇA PARA ATRAVESSAR <span>↓</span></a
+            ><span>FOTO REAL / ANTELOPE CANYON</span>
+          </div>
+          <div class="edge-label" aria-hidden="true">
+            CAMADA / LUZ / INTERVALO
+          </div>
+        </div>
+      </section>
+      <section class="chapter wall" id="s2" aria-labelledby="wall-title">
+        <div class="scene">
+          <div class="wall-photo">
+            <img
+              src="/photos/cliff.webp"
+              width="1200"
+              height="1800"
+              alt="Parede rochosa com fendas e pequenas plantas, fotografada por Rachel Claire."
+              loading="lazy"
+            />
+          </div>
+          <div class="wall-copy">
+            <p class="chapter-code">02 / O QUE A SUPERFÍCIE GUARDA</p>
+            <h2 id="wall-title">O tempo<br />não passa.<br /><em>Fica.</em></h2>
+            <p>
+              Uma fenda. Uma sombra. Uma planta entre as pedras. A fotografia
+              aproxima detalhes que, de longe, viram uma única superfície.
+            </p>
+            <a href="#reading">Guardar uma observação ↗</a>
+          </div>
+          <div class="measurement" aria-hidden="true">
+            <span>OBSERVAR ≠ MEDIR</span><i></i
+            ><span>UM RECORTE, NÃO A PAISAGEM INTEIRA.</span>
+          </div>
+        </div>
+      </section>
+      <section class="chapter horizon" id="s3" aria-labelledby="ridge-title">
+        <div class="scene">
+          <div class="horizon-photo">
+            <img
+              src="/photos/ridge.webp"
+              width="2400"
+              height="1600"
+              alt="Crista rochosa sob céu azul e nuvens, fotografada por Mathias Reding em Chamonix."
+              loading="lazy"
+            />
+          </div>
+          <div class="shade"></div>
+          <div class="horizon-title">
+            <p class="chapter-code">03 / DEVOLVER A DISTÂNCIA</p>
+            <h2 id="ridge-title">TUDO<br />É <span>ESCALA.</span></h2>
+          </div>
+          <p class="horizon-caption">
+            O detalhe deixa de ser detalhe.<br />A borda se torna horizonte.
+          </p>
+          <a
+            class="circle-link"
+            href="#reading"
+            aria-label="Abrir caderno de campo"
+            >↗</a
+          ><span class="ridge-credit">FOTO REAL / MATHIAS REDING</span>
+        </div>
+      </section>
+      <section class="reading" id="reading" aria-labelledby="reading-title">
+        <div class="reading-head">
+          <p>SEU OLHAR TAMBÉM FAZ PARTE.</p>
+          <h2 id="reading-title">Caderno<br />de campo<span>03</span></h2>
+          <p>
+            Curadoria visual de três fotografias reais. As perguntas são
+            convites de observação, não análises geológicas nem recomendações de
+            viagem.
+          </p>
+        </div>
+        <div id="notebook"></div>
+      </section>
+    </main>
+    <nav class="chapter-nav" aria-label="Capítulos">
+      <a href="#s1" aria-label="Capítulo 1, curvas">01</a
+      ><a href="#s2" aria-label="Capítulo 2, superfície">02</a
+      ><a href="#s3" aria-label="Capítulo 3, horizonte">03</a
+      ><a href="#reading" aria-label="Caderno de campo">C</a>
+    </nav>
+    <footer>
+      <span>ESTRATO / UMA EXPEDIÇÃO VISUAL INDEPENDENTE.</span
+      ><a
+        href="https://github.com/gustapaz/estrato"
+        target="_blank"
+        rel="noreferrer"
+        >Gustavo Paz · código ↗</a
+      >
+    </footer>
+    <dialog id="credits-dialog" aria-labelledby="credits-title">
+      <button class="close" aria-label="Fechar créditos">×</button>
+      <h2 id="credits-title">A paisagem<br />é real.</h2>
+      <p>
+        Fotografias licenciadas pelo Pexels. Recortes, máscaras e movimentos
+        foram aplicados na interface. Não há imagens geradas por IA, parceria
+        com fotógrafos ou vínculo com destinos.
+      </p>
+      <ul>
+        <li>
+          <a
+            href="https://www.pexels.com/photo/antelope-canyon-1051563/"
+            target="_blank"
+            rel="noreferrer"
+            >Antelope Canyon · Francesco Ungaro ↗</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.pexels.com/photo/rocky-formation-of-steep-cliff-with-dry-plants-4993082/"
+            target="_blank"
+            rel="noreferrer"
+            >Parede rochosa · Rachel Claire ↗</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.pexels.com/photo/high-steep-rocky-mountain-ridge-under-cloudy-sky-4468962/"
+            target="_blank"
+            rel="noreferrer"
+            >Crista rochosa · Mathias Reding ↗</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.pexels.com/legal-pages/license/"
+            target="_blank"
+            rel="noreferrer"
+            >Licença Pexels ↗</a
+          >
+        </li>
+      </ul>
+      <p>
+        O caderno é local: favoritos e notas ficam neste navegador, sem conta ou
+        sincronização. Limpar os dados do site apaga esse registro. A exportação
+        TXT é um registro para leitura.
+      </p>
+    </dialog>
+    <noscript
+      ><p class="no-js">
+        As fotografias e os capítulos continuam disponíveis. Ative JavaScript
+        para usar o caderno de campo.
+      </p></noscript
+    >
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
